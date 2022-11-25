@@ -70,7 +70,7 @@ Attacks have been tested on **Windows** and **Linux** Services with botnets work
 
 Both mentioned operating systems and their services being victim of the attack during the process.<br>
 
-Currently the botnets doesn't spread on it's own through which it is installed, or in botnet vectors.<br>
+Currently the botnets doesn't spread on it's own like worms, on devices which it is installed<br>
 
 This script has been modified to support concurrency with multiprocessing, during attacks with BOTNET NETWORKS, individually controlled by a **BOTNET MASTER**, identifiable by a particular BOTNET ID assigned to all other BOTNETS during the build process.<br>
 
