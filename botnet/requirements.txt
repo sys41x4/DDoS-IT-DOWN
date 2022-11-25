@@ -1,0 +1,7 @@
+ping3
+pypiwin32
+winshell
+pytest-shutil
+pathlib
+pycryptodome
+pyinstaller
